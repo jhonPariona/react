@@ -27,11 +27,33 @@ export default App;
 /*                                                        Types                                                                             */
 /********************************************************************************************************************************************/
 
-type NameTagTypes = {
-  name: String;
+import React from "react";
+
+type objectValuesProps = {
+  id: string;
+  name: string;
 };
 
-const NameTag = ({ name }: NameTagTypes) => {
+type tipodeclaves = {
+  [key: string]: string;
+};
+
+type NameTagProps = {
+  name: string;
+  optionalProp?: string;
+  numero?: number;
+  boleano?: boolean;
+  matrices?: string[];
+  soloEstos?: "loading" | "error" | "sucess";
+  objetos?: tipodeclaves;
+  arraydeobjeto?: {
+    item: objectValuesProps;
+    items: objectValuesProps[];
+  }[];
+  onClick(event: React.MouseEvent<HTMLButtonElement>): void;
+};
+
+const NameTag = ({ name }: NameTagProps) => {
   return (
     <main className="display-name">
       <p>{name}</p>
@@ -39,6 +61,7 @@ const NameTag = ({ name }: NameTagTypes) => {
   );
 };
 
-const Application = () => <NameTag name="wilder" />;
+const Application = () => <NameTag name="wilder" onClick={() => {}} />;
 
 export default Application;
+
