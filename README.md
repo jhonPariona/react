@@ -6,7 +6,7 @@
 
 ## Vanillla
 
-- [PropTypes](https://github.com/jhonPariona/react/blob/6b5f65cf6c191b10f9f20e3043f12ea759e2a397/types.tsx#L6 | [📺](https://codesandbox.io/s/proptypes-5z7yc?file=/src/App.js)
+- [PropTypes](https://github.com/jhonPariona/react/blob/6b5f65cf6c191b10f9f20e3043f12ea759e2a397/types.tsx#L6) | [📺](https://codesandbox.io/s/proptypes-5z7yc?file=/src/App.js)
 
 ## Typescript
 
