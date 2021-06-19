@@ -6,4 +6,4 @@
 
 ## Typescript
 
-- [types remplazo a PropTypes](types.tsx)
+- [types remplazo a PropTypes](types.tsx) [code](https://codesandbox.io/s/name-tag-forked-d9hby?file=/src/Application.tsx)
