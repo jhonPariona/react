@@ -1,5 +1,7 @@
 <h1 align="center">React</h1>
 
+<p align="center">Libreria de UI creada por Facebook</p>
+
 ## Config Plugins
 
 - [Plugins](plugins.md)
