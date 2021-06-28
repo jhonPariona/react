@@ -7,7 +7,7 @@
 
 - **Declarativo** (librería predecible) Facil de leer(sencillo, limpio y eficiente)
 - **VDOM Virtual dom**(representacion memoria del DOM real) intermediario entre tu estado  de app y la ui 
-- [Algoritmo de reconciliación](https://www.udemy.com/course/reactjs-guia-desde-0/learn/lecture/24346658?start=265#notes) actualiza de manera inteligente el DOM real
+- [Algoritmo de reconciliación o diferencial](https://www.udemy.com/course/reactjs-guia-desde-0/learn/lecture/24346658?start=265#notes) actualiza de manera inteligente el DOM real
 - [Fibers(fibras)](https://www.udemy.com/course/reactjs-guia-desde-0/learn/lecture/24346658?start=348#notes): objetos internos de react que mantienen la información de los componentes
 
 ## Config Plugins
