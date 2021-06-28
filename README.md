@@ -1,10 +1,12 @@
 <h1 align="center">React</h1>
 
-<p align="center">Libreria de UI(solo la vista) creada por Facebook</p>
+<p align="center">Libreria de UI(solo la vista) creada por Jordan Walke 2010 (prototipo basada en componentes)</p>
+<p align="center"> 2013 FACEBOOK Open Source</p>
 
 ## Características
 
 - **Declarativo** (librería predecible) Facil de leer(sencillo, limpio y eficiente)
+- **VDOM Virtual dom**(representacion memoria del DOM real) intermediario entre tu estado  de app y la ui ([Algoritmo de reconciliación](https://www.udemy.com/course/reactjs-guia-desde-0/learn/lecture/24346658#notes) actualiza de manera inteligente el DOM real)
 
 ## Config Plugins
 
