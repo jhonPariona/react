@@ -1,6 +1,6 @@
 <h1 align="center">React</h1>
 
-<p align="center">Libreria de UI creada por Facebook</p>
+<p align="center">Libreria de UI(solo la vista) creada por Facebook</p>
 
 ## Características
 
